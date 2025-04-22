@@ -48,6 +48,19 @@ html, body {
 .footer {
     margin-top: 0 !important;
 }
+.object-fit-cover {
+    object-fit: cover;
+}
+.resized-img {
+    width: 100%;
+    max-width: 500px;   /* Was 400px */
+    height: 320px;      /* Was 250px */
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: block;
+}
+
 
 
 

@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us | Ray's HVAC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+        }
+    </style>
 </head>
+<body>
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -35,10 +50,7 @@
 </nav>
 
 
-<body>
-<div class="container-fluid">
-
-
+<div class="content container-fluid">
     <div class="container my-5">
         <h1 class="text-center mb-4">Get in Touch</h1>
         <p class="text-center">Have questions? Need a quote? Reach out using the form below or call us directly.</p>
@@ -67,23 +79,19 @@
                 <p><br>Union, NJ 07083</p>
                 <p><strong>Phone:</strong> (201) 780-3062<br><strong>Email:</strong> rayshvac@outlook.com</p>
                 <iframe src="https://www.google.com/maps?q=Union,+NJ&output=embed"
-                        width="100%"
-                        height="250"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
-
-        <footer class="footer bg-dark text-white text-center py-3 mt-auto sticky-bottom">
-            <div class="container">
-                <small>&copy; Jeremy Batista, 2025 | <a href="#" class="text-white">Terms Of Use</a> | <a href="#" class="text-white">Privacy Policy</a></small>
-            </div>
-        </footer>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
+
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <small>&copy; Jeremy Batista, 2025 | <a href="#" class="text-white">Terms Of Use</a> | <a href="#" class="text-white">Privacy Policy</a></small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
