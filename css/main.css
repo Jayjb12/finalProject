@@ -1,5 +1,6 @@
+/* DEVELOPER Jeremy Batista, IS117-102, Spring 2025 */
 .footer {
-    background-color: #0d6efd; /* Bootstrap primary blue */
+    background-color: #0d6efd; 
     color: white;
     text-align: center;
     padding: 0;
@@ -53,8 +54,8 @@ html, body {
 }
 .resized-img {
     width: 100%;
-    max-width: 500px;   /* Was 400px */
-    height: 320px;      /* Was 250px */
+    max-width: 500px;  
+    height: 320px;      
     object-fit: cover;
     margin: 10px auto;
     border-radius: 8px;
